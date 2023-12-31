@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Buku Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #333;
+        }
+        .comic-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .comic-item {
+            width: calc(48% - 10px); /* 48% width with 10px margin in between */
+            margin-bottom: 20px;
+            background-color: #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease-in-out;
+        }
+        .comic-item:hover {
+            transform: scale(1.05);
+        }
+        .comic-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baca Buku Online</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="kategori.html">kategori</a>
+        <a href="akun.html">Akun</a>
+    </nav>
+    <main>
+        <!-- Konten Halaman Home -->
+        <h2>Daftar Buku</h2>
+        <ul class="comic-list">
+            <li class="comic-item">
+                <img src="img/1.jpg" alt="Sampul Komik 1">
+                <h3>Judul Komik 1</h3>
+                <p>Deskripsi singkat komik 1.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <li class="comic-item">
+                <img src="img/2.jpeg" alt="Sampul Komik 2">
+                <h3>Judul Komik 2</h3>
+                <p>Deskripsi singkat komik 2.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+        </ul>
+        <ul class="comic-list">
+            <li class="comic-item">
+                <img src="img/1.jpg" alt="Sampul Komik 1">
+                <h3>Judul Komik 1</h3>
+                <p>Deskripsi singkat komik 1.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <li class="comic-item">
+                <img src="img/2.jpeg" alt="Sampul Komik 2">
+                <h3>Judul Komik 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam corporis mollitia beatae maiores, illum quas vitae provident! Est cupiditate commodi harum deleniti maiores sequi sed accusantium accusamus, debitis libero magnam.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Hak Cipta © 2023 Baca Buku Online</p>
+    </footer>
+</body>
+</html>

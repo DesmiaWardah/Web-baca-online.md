@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Buku Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #333;
+        }
+        .book-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .book-item {
+            width: 48%;
+            margin-bottom: 20px;
+            background-color: #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease-in-out;
+        }
+        .book-item:hover {
+            transform: scale(1.05);
+        }
+        .book-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baca Buku Online</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="kategori.html">kategori</a>
+        <a href="akun.html">Akun</a>
+    </nav>
+    <main>
+        <!-- Konten Halaman Home -->
+        <h2>Kategori Pendidikan</h2>
+        <ul class="book-list">
+            <li class="book-item">
+                <img src="img/p1.jpeg" alt="Sampul Buku Pendidikan 1">
+                <h3>Judul Buku Pendidikan 1</h3>
+                <p>Deskripsi singkat buku pendidikan 1.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <li class="book-item">
+                <img src="img/p2.jpeg" alt="Sampul Buku Pendidikan 2">
+                <h3>Judul Buku Pendidikan 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni reiciendis eius beatae! Voluptas molestiae deleniti pariatur assumenda totam minima aut laborum autem, quaerat hic nihil iste voluptatem eligendi non cum?.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <!-- Tambahkan lebih banyak buku pendidikan sesuai kebutuhan -->
+        </ul>
+
+        <h2>Kategori Romansa</h2>
+        <ul class="book-list">
+            <li class="book-item">
+                <img src="img/r1.jpeg" alt="Sampul Buku Romansa 1">
+                <h3>Judul Buku Romansa 1</h3>
+                <p>Deskripsi singkat buku romansa 1.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <li class="book-item">
+                <img src="img/r2.webp" alt="Sampul Buku Romansa 2">
+                <h3>Judul Buku Romansa 2</h3>
+                <p>Deskripsi singkat buku romansa 2.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <!-- Tambahkan lebih banyak buku romansa sesuai kebutuhan -->
+        </ul>
+
+        <h2>Kategori Action</h2>
+        <ul class="book-list">
+            <li class="book-item">
+                <img src="img/1.jpg" alt="Sampul Buku Action 1">
+                <h3>Judul Buku Action 1</h3>
+                <p>Deskripsi singkat buku action 1.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <li class="book-item">
+                <img src="img/2.jpeg" alt="Sampul Buku Action 2">
+                <h3>Judul Buku Action 2</h3>
+                <p>Deskripsi singkat buku action 2.</p>
+                <a href="#">Baca Sekarang</a>
+            </li>
+            <!-- Tambahkan lebih banyak buku action sesuai kebutuhan -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>Hak Cipta © 2023 Baca Buku Online</p>
+    </footer>
+</body>
+</html>
