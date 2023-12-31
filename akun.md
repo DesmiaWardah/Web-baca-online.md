@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Buku Online - Akun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .book-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .book-item {
+            width: 48%;
+            margin-bottom: 20px;
+            background-color: #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease-in-out;
+        }
+        .book-item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .settings {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baca Buku Online</h1>
+    </header>
+    <nav>
+        <a href="akun.html">Home</a>
+        <a href="kategori.html">Kategori</a>
+        <a href="akun.html">Akun</a>
+    </nav>
+    <main>
+        <!-- Konten Halaman Akun -->
+        <div class="profile">
+            <h2>Profil Pengguna</h2>
+            <p>Nama Pengguna: John Doe</p>
+            <p>Email: john.doe@example.com</p>
+        </div>
+        <div class="settings">
+            <h2>Pengaturan</h2>
+            <p>Ubah Kata Sandi</p>
+            <p>Notifikasi</p>
+            <!-- Tambahkan lebih banyak opsi pengaturan sesuai kebutuhan -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Hak Cipta © 2023 Baca Buku Online</p>
+    </footer>
+</body>
+</html>
